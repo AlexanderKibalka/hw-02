@@ -1,13 +1,22 @@
+/* Body */
+
 .page {
   font-family: Roboto, sans-serif;
 }
 
+/* Reset */
+
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 
 .list {
   list-style: none;
+}
+
+.adress {
+  font-style: normal;
 }
 
 .btn {
