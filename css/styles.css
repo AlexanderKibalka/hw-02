@@ -1,11 +1,27 @@
+:root {
+  /* Font */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* Colors */
+  --main-dark-cl: #434455;
+  --main-white-cl: #ffffff;
+  --title-cl: #2e2f42;
+  --logo-web-cl: #4d5ae5;
+  --cloud-cl: #f4f4fd;
+  --bt-hover-cl: #404bbf;
+
+  /* Others */
+}
 /* Body */
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  background-color: var(--main-white-cl);
+  color: var(--main-dark-cl);
 }
 
 /* Reset */
@@ -27,49 +43,56 @@ body {
 /* Header styles */
 
 .logo {
-  font-family: 'Raleway';
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(-logo-web-cl);
 }
 .studio-dark {
-  color: #2e2f42;
+  color: var(--title-cl);
 }
 .header-list {
   font-weight: 500;
-  color: #2e2f42;
+  color: var(--title-cl);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--bt-hover-cl);
 }
 
 .header-contact:hover,
 .header-contact:focus {
-  color: #404bbf;
+  color: var(--bt-hover-cl);
 }
 
 /* hero styles */
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--title-cl);
 }
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
+  letter-spacing: 0.02em;
+  color: var(--main-white-cl);
 }
 .hero-btn {
   font-weight: 500;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  line-height: 1.5;
+  color: var(--main-white-cl);
+  background-color: var(-logo-web-cl);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--bt-hover-cl);
 }
 
 /* features styles */
@@ -78,7 +101,8 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
 }
 
 /* activity styles */
@@ -87,26 +111,30 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  color: #2e2f42;
+  text-transform: capitalize;
+  color: var(--title-cl);
 }
 
 /* tiam styles */
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-cl);
 }
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
 }
 .team-text {
   text-align: center;
@@ -115,11 +143,11 @@ body {
 /* footer styles*/
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-cl);
 }
 .studio-light {
-  color: #f4f4fd;
+  color: var(--cloud-cl);
 }
 .footer-text {
-  color: #f4f4fd;
+  color: var(--cloud-cl);
 }
