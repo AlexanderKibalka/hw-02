@@ -1,10 +1,11 @@
 /* Body */
 
-.page {
+body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Reset */
@@ -41,9 +42,6 @@
   font-weight: 500;
   color: #2e2f42;
 }
-.header-contact {
-  color: #434455;
-}
 
 .header-contact:hover,
 .header-contact:focus {
@@ -63,11 +61,15 @@
 }
 .hero-btn {
   font-weight: 500;
-  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* features styles */
@@ -77,9 +79,6 @@
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
-}
-.features-text {
-  color: #434455;
 }
 
 /* activity styles */
@@ -111,7 +110,6 @@
 }
 .team-text {
   text-align: center;
-  color: #434455;
 }
 
 /* footer styles*/
