@@ -49,7 +49,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(-logo-web-cl);
+  color: var(--logo-web-cl);
 }
 .studio-dark {
   color: var(--title-cl);
@@ -87,7 +87,7 @@ body {
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: var(--main-white-cl);
-  background-color: var(-logo-web-cl);
+  background-color: var(--logo-web-cl);
 }
 
 .hero-btn:hover,
@@ -118,7 +118,7 @@ body {
 /* tiam styles */
 
 .team {
-  background-color: #ffffff;
+  background-color: var(--main-white-cl);
 }
 .team-title {
   font-size: 36px;
@@ -150,4 +150,12 @@ body {
 }
 .footer-text {
   color: var(--cloud-cl);
+}
+
+/* portfolio styles */
+.filters-item {
+  background-color: var(--cloud-cl);
+}
+.card-item {
+  background-color: var(--main-white-cl);
 }
