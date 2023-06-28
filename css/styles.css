@@ -168,8 +168,8 @@ body {
   background-color: var(--cloud-cl);
 }
 .filters-btn:hover,
-.filters-btn:hover {
-  columns: var(--main-white-cl);
+.filters-btn:focus {
+  color: var(--main-white-cl);
   background-color: var(--bt-hover-cl);
 }
 .card-item {
