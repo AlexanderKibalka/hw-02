@@ -38,7 +38,7 @@ body {
 }
 .btn {
   cursor: pointer;
-  font-family: inherit \;;
+  font-family: inherit;
 }
 
 /* Header styles */
@@ -159,6 +159,26 @@ body {
 .filters-item {
   background-color: var(--cloud-cl);
 }
+.filters-btn {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-web-cl);
+  background-color: var(--cloud-cl);
+}
+.filters-btn:hover,
+.filters-btn:hover {
+  columns: var(--main-white-cl);
+  background-color: var(--bt-hover-cl);
+}
 .card-item {
   background-color: var(--main-white-cl);
+}
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
 }
