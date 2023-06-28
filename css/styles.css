@@ -38,6 +38,7 @@ body {
 }
 .btn {
   cursor: pointer;
+  font-family: inherit;
 }
 
 /* Header styles */
